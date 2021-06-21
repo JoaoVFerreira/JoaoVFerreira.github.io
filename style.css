@@ -11,9 +11,12 @@ body {
     text-align: center;
 
 }
+ol li:nth-child(odd) {
+    color: violet;
+    
+    }
 .liststyle {
     text-align: left;
-    text-shadow: 2px 2px 5px rgba(243, 243, 102, 0.986);
     text-align: center;
     list-style: none;
 }
@@ -59,26 +62,21 @@ body {
 }
 
 .cointaner {
-    background-color: darkgray;
+   
     display: inline-block;
 }
 
 .imgblock {
-    width: 40%;
-    margin-left: 600px;
-    float:none;
-    background-color: coral;
+    width: 45%;
     display: inline-block;
     
 }
 .textaboutme {
-    width: 50%;
-    background-color: cyan;
-    
+    width: 45%;
+    display: inline-block;
+    margin-bottom: 50px;
     
 }
 .lista {
-    margin-top: 500px;
     text-align: center;
-    background-color: darkgoldenrod;
 }
