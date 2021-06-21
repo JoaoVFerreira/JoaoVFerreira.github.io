@@ -1,0 +1,84 @@
+h3  {
+    color: rgba(243, 243, 102, 0.986);
+    text-align: center;
+
+}
+body {
+    font-family: monospace;
+    color: rgba(243, 243, 102, 0.986);
+    background-color: black;
+    font-size: 15px;
+    text-align: center;
+
+}
+.liststyle {
+    text-align: left;
+    text-shadow: 2px 2px 5px rgba(243, 243, 102, 0.986);
+    text-align: center;
+    list-style: none;
+}
+
+.imglink {
+    border-radius: 50%;
+    width: 300px;
+    
+}
+.button {
+    background-color: rgb(33, 107, 218);
+    padding: 15px 20px;
+    color: white;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+#menuheader ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    background-color:black;
+    text-align: left;
+
+}
+
+#menuheader ul li {
+    display: inline;
+}
+    
+#menuheader ul li a {
+    padding: 5px 20px;
+    display: inline-block;
+    color: rgba(243, 243, 102, 0.986);
+    text-decoration: none;
+    text-align: left;
+}
+
+#menuheader ul li a:hover {
+    background-color:black;
+    border-bottom: 2px solid rgba(243, 243, 102, 0.986);
+    color:coral;
+}
+
+.cointaner {
+    background-color: darkgray;
+    display: inline-block;
+}
+
+.imgblock {
+    width: 40%;
+    margin-left: 600px;
+    float:none;
+    background-color: coral;
+    display: inline-block;
+    
+}
+.textaboutme {
+    width: 50%;
+    background-color: cyan;
+    
+    
+}
+.lista {
+    margin-top: 500px;
+    text-align: center;
+    background-color: darkgoldenrod;
+}
